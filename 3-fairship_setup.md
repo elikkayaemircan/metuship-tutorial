@@ -41,3 +41,10 @@ You can get a different kind of output after the command, but it should be seem 
     ~$ echo "export EOS=/eos/experiment/ship/user/your-user-name" >> $HOME/.bashrc
     
 By running the command in first line above, you should set the alias that each time you type FairSetup on your screen, you install the FairShip environment. And running the command in second line above, set the variable $EOS to your eos folder path. By this method, you can set any variable with your needs.
+
+    ~$ FairSetup
+    setup aliBuild environment
+    setup lcg environment
+    ~$
+    ~$ cd $EOS
+    ~/eos/experiment/ship/user/your-user-name$
